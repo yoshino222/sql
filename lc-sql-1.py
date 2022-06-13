@@ -23,3 +23,4 @@
 # 按 任意顺序 返回结果表。
 #
 # 查询结果格式如下例所示。
+select name,population,area from world where area>=3000000 and population>=25000000
