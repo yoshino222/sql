@@ -51,3 +51,6 @@
 # | 2 | bob @ example.com |
 # +----+------------------+
 # 解释: john @ example.com重复两次。我们保留最小的Id = 1。
+
+delete p1 from Person p1,Person p2
+where p1.email=p2.mail and p1.id>p2.id
